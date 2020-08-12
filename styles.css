@@ -1,0 +1,119 @@
+ /*  Text layouts below */
+
+.table-button,
+.header-title,
+.header-turn,
+.header-player {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 500;
+}
+
+ /* General body layouts below */
+
+table  {
+    width: 30rem;
+    height: 30rem;
+    margin: 3rem auto 3rem;
+}
+
+body {
+    background: rgb(247, 228, 228);
+}
+
+.header {
+    background: #272a44;
+    display: flex;
+}
+
+.container {
+    width: 50%;
+    margin: 4rem auto 2rem;
+    background: #363a5c;
+    border-radius: 0 0 10% 10%;
+}
+
+ /* Font layouts below */
+
+.header-title,
+.header-turn {
+    color: #fff;
+}
+
+.header-player {
+    color: #ff0000;
+}
+
+.header-title {
+    padding: .5rem 0 0 14rem;
+}
+
+.header-turn {
+    padding: .5rem 0 0 12rem;
+}
+
+.header-player {
+    padding: .6rem 0 0 .5rem;
+}
+
+.turn-color {
+    color: #ff0000;
+}
+
+
+/* Button layouts below */
+
+.table-button {
+    width: 10rem;
+    height: 10rem;
+    font-size: 4rem;
+}
+
+.table-button:hover {
+    background: #272a44;
+    color: #fff;
+    border: none;
+}
+
+.table-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.table-button:disabled {
+    color: #363a5c;
+    border: none;
+}
+
+.table-button:hover:disabled {
+    color: #fff;
+    border: none;
+}
+
+.reset-button {
+    display: flex;
+    margin: 0 auto;
+}
+
+.corner1,
+.corner2,
+.corner3,
+.corner4 {
+    border: none;
+}
+
+.corner1 {
+    border-top-left-radius: 20%;
+    border: none;
+}
+
+.corner2 {
+    border-top-right-radius: 20%;
+}
+
+.corner3 {
+    border-bottom-left-radius: 20%;
+}
+
+.corner4 {
+    border-bottom-right-radius: 20%;
+}

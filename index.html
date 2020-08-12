@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="header-title">Tic Tac Toe</h1>
+            <h1 class="header-turn" id='header'>Turn: </h1>
+            <h1 class="header-player" id='turn'>X</h1>
+        </div>
+
+        <div class="board">
+            <table id='board-table'>
+                <tr>
+                    <td><button class='table-button corner1' id='0' onclick="pressed(this.id)"></button></td>
+                    <td><button class='table-button' id='1' onclick="pressed(this.id)"></button></td>
+                    <td><button class='table-button corner2' id='2' onclick="pressed(this.id)"></button></td>
+                </tr>
+                <tr>
+                    <td><button class='table-button' id='3' onclick="pressed(this.id)"></button></td>
+                    <td><button class='table-button' id='4' onclick="pressed(this.id)"></button></td>
+                    <td><button class='table-button' id='5' onclick="pressed(this.id)"></button></td>
+                </tr>
+                <tr>
+                    <td><button class='table-button corner3' id='6' onclick="pressed(this.id)"></button></td>
+                    <td><button class='table-button' id='7' onclick="pressed(this.id)"></button></td>
+                    <td><button class='table-button corner4' id='8' onclick="pressed(this.id)"></button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="reset-button" id='addButton'>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
